@@ -1,0 +1,4 @@
+Post Deployment Steps:
+Step 1: Create new remote site setting with the Remote Site URl as 'https://cqparts-3d06.restdb.io/rest/cqpart'
+Step 2: Assign your admin user with below permission set:
+        Permission Set Name : Integration Admin Permission Set
