@@ -1,0 +1,9 @@
+<template>
+    <lightning-card variant="narrow" icon-name="">
+        <h1 slot="title">Start Sync Parts</h1>
+        <lightning-button class="slds-p-left_x-small" variant="brand" label="Sync Parts" title="Sync Process" onclick={handleSyncProcess}></lightning-button>
+        <template lwc:if={showSpinner}>
+            <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+        </template>
+    </lightning-card>
+</template>
